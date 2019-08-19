@@ -3,6 +3,9 @@
 A representational stat pack for comparing two sources.
 
 
+![xns-stat-compare-pack](https://user-images.githubusercontent.com/8682363/63289784-9cb70a80-c2c8-11e9-90ab-b86d0668d4b7.png)
+
+
 ### install
 
 ```sh
@@ -23,29 +26,29 @@ $ npm i xns-stat-compare-pack
 
 ```sh
 <xns-stat-compare-pack
-    :sp-width=""
-    :sp-height=""
-    :color-one=""
-    :color-two=""
-    :size-one=""
-    :size-two=""
-    :stats-color=""
-    :sp-title=""
-    :title-color=""
+    :sp-width="300"
+    :sp-height="50"
+    :color-one="'#c70102'"
+    :color-two="'#383838'"
+    :size-one="16"
+    :size-two="21"
+    :stats-color="'white'"
+    :sp-title="'Total Tackles'"
+    :title-color="'white'"
 ></xns-stat-compare-pack>
 ```
 
 
 ## Options
 
-| Option | Required | Default |
-| ------ | -------- | ------- |
-| spWidth | false | 300px |
-| spHeight | false | 50px |
-| colorOne | true | none |
-| colorTwo | true | none |
-| sizeOne | true | none |
-| sizeTwo | true | none |
-| statsColor | true | none |
-| spTitle | true | none |
-| titleColor | true | none |
+| Option | Type | Required | Default |
+| ------ | ---- | -------- | ------- |
+| spWidth | Number | false | 300px |
+| spHeight | Number | false | 50px |
+| colorOne | String | true | none |
+| colorTwo | String | true | none |
+| sizeOne | String | true | none |
+| sizeTwo | String | true | none |
+| statsColor | String | true | none |
+| spTitle | String | true | none |
+| titleColor | String | true | none |
