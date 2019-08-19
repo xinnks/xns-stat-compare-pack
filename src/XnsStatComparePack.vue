@@ -79,9 +79,6 @@ export default {
 }
 </script>
 <style scoped>
-  *{
-    /* font-family: "Roboto"; */
-  }
   .title{
     position: absolute;
     display: flex;
