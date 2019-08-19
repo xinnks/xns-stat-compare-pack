@@ -1,0 +1,34 @@
+{
+  "private": false,
+  "name": "xns-stat-compare-pack",
+  "version": "0.0.1",
+  "description": "A representational stat pack for comparing two sources",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vue serve XnsStatComparePack.vue",
+    "build": "bili --name index --plugin vue --vue.css false",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinnks/xns-stat-compare-pack.git"
+  },
+  "keywords": [
+    "stats",
+    "comparison"
+  ],
+  "author": "James Sinkala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinnks/xns-stat-compare-pack/issues"
+  },
+  "homepage": "https://github.com/xinnks/xns-stat-compare-pack#readme",
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue-template-compiler": "^2.5.18"
+  }
+}
