@@ -2,18 +2,25 @@
 
 A representational stat pack for comparing two sources.
 
+
 ### install
+
 <code>
     npm i xns-stat-compare-pack
 </code>
 
+
 ### Import & initiate plugin on your entry js file
+
 <code>
     import XnsStatComparePack from 'xns-stat-compare-pack'
 </code>
 <code>
     Vue.use(XnsStatComparePack)
 </code>
+
+
+### Example
 
 <xns-stat-compare-pack
     :sp-width=""
@@ -27,14 +34,17 @@ A representational stat pack for comparing two sources.
     :title-color=""
 ></xns-stat-compare-pack>
 
+
 ## Options
 
 <table>
-    <tr>
-        <th>Option</th>
-        <th>Required</th>
-        <th>Default</th>
-    </tr>
+    <thead>
+        <tr>
+            <th>Option</th>
+            <th>Required</th>
+            <th>Default</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
             <td>sp-width</td>
