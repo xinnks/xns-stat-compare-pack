@@ -1,27 +1,27 @@
-# Xns-Stat-Compare-Pack
+# xns-stat-compare-pack
 
 A representational stat pack for comparing two sources.
 
 
 ### install
 
-<code>
-    npm i xns-stat-compare-pack
-</code>
+```sh
+$ npm i xns-stat-compare-pack
+```
 
 
 ### Import & initiate plugin on your entry js file
 
-<code>
+```sh
     import XnsStatComparePack from 'xns-stat-compare-pack'
-</code>
-<code>
+
     Vue.use(XnsStatComparePack)
-</code>
+```
 
 
 ### Example
 
+```sh
 <xns-stat-compare-pack
     :sp-width=""
     :sp-height=""
@@ -33,64 +33,19 @@ A representational stat pack for comparing two sources.
     :sp-title=""
     :title-color=""
 ></xns-stat-compare-pack>
+```
 
 
 ## Options
 
-<table>
-    <thead>
-        <tr>
-            <th>Option</th>
-            <th>Required</th>
-            <th>Default</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>sp-width</td>
-            <td>false</td>
-            <td>300px</td>
-        </tr>
-        <tr>
-            <td>sp-height</td>
-            <td>false</td>
-            <td>50px</td>
-        </tr>
-        <tr>
-            <td>color-one</td>
-            <td>true</td>
-            <td>none</td>
-        </tr>
-        <tr>
-            <td>color-two</td>
-            <td>true</td>
-            <td>none</td>
-        </tr>
-        <tr>
-            <td>size-one</td>
-            <td>true</td>
-            <td>none</td>
-        </tr>
-        <tr>
-            <td>size-two</td>
-            <td>true</td>
-            <td>none</td>
-        </tr>
-        <tr>
-            <td>stats-color</td>
-            <td>true</td>
-            <td>none</td>
-        </tr>
-        <tr>
-            <td>sp-title</td>
-            <td>true</td>
-            <td>none</td>
-        </tr>
-        <tr>
-            <td>title-color</td>
-            <td>true</td>
-            <td>none</td>
-        </tr>
-    </tbody>
-</table>
-
+| Option | Required | Default |
+| ------ | -------- | ------- |
+| spWidth | false | 300px |
+| spHeight | false | 50px |
+| colorOne | true | none |
+| colorTwo | true | none |
+| sizeOne | true | none |
+| sizeTwo | true | none |
+| statsColor | true | none |
+| spTitle | true | none |
+| titleColor | true | none |
