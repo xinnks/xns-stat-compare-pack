@@ -65,6 +65,35 @@ export default {
       statTitle: ''
     }
   },
+  watch: {
+    spWidth () {
+      this.update()
+    },
+    spHeight () {
+      this.update()
+    },
+    colorOne () {
+      this.update()
+    },
+    colorTwo () {
+      this.update()
+    },
+    sizeOne () {
+      this.update()
+    },
+    sizeTwo () {
+      this.update()
+    },
+    statsColor () {
+      this.update()
+    },
+    spTitle () {
+      this.update()
+    },
+    titleColor () {
+      this.update()
+    },
+  },
   mounted () {
     // set defaults
     this.statTitle = this.title != '' ? this.title : 'Stats'
@@ -75,6 +104,17 @@ export default {
     let valuesSum = this.sizeOne + this.sizeTwo
     this.size1 = (this.sizeOne / valuesSum) * this.spWidth;
     this.size2 = (this.sizeTwo / valuesSum) * this.spWidth;
+  },
+  methods: {
+    update () {
+    this.statTitle = this.title != '' ? this.title : 'Stats'
+    this.statPackWidth = this.spWidth ? this.width : 300
+    this.statPackHeight = this.spHeight ? this.height : 50
+    
+    let valuesSum = this.sizeOne + this.sizeTwo
+    this.size1 = (this.sizeOne / valuesSum) * this.spWidth;
+    this.size2 = (this.sizeTwo / valuesSum) * this.spWidth;
+    }
   }
 }
 </script>
