@@ -1,6 +1,6 @@
 # xns-stat-compare-pack
 
-A representational stat pack for comparing two sources.
+A representational stat pack vue plugin for comparing two sources.
 
 
 ![xns-stat-compare-pack](https://user-images.githubusercontent.com/8682363/63289784-9cb70a80-c2c8-11e9-90ab-b86d0668d4b7.png)
