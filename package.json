@@ -29,7 +29,7 @@
   "homepage": "https://github.com/xinnks/xns-stat-compare-pack#readme",
   "devDependencies": {
     "bili": "^4.8.1",
-    "rollup-plugin-vue": "^5.0.1",
+    "rollup-plugin-vue": "^6.0.0",
     "vue-template-compiler": "^2.5.18"
   }
 }
